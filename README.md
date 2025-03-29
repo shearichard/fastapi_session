@@ -14,6 +14,6 @@ $ pipenv shell
 ### Start Server
 From the root of the project execute ...
 ```
-uvicorn main:app --reload
+uvicorn src.main:app --reload
 ```
 

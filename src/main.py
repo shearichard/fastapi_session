@@ -14,6 +14,6 @@ def get_env_variable(var_name):
 app = FastAPI()
 
 # Example protected endpoint
-@app.get("/hello"])
+@app.get("/hello")
 async def hello():
     return {"message": "Welcome to the session prototype"}
