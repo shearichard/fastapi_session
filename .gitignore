@@ -1,3 +1,6 @@
+# Don't commit the env vars
+.envrc
+#
 .idea
 .ipynb_checkpoints
 .mypy_cache

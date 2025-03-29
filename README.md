@@ -17,3 +17,12 @@ From the root of the project execute ...
 uvicorn src.main:app --reload
 ```
 
+## Environment Variables
+Environment variables specific to this project are defined in the .envrc file, this is not committed to the repos however the .envrc_TEMPLATE provides guidance on the contents of .envrc so that it can be recreated when necessary.
+
+## Secret Key
+One way to generate the secret key needed to use the Session functionality (and which is stored in the uncommitted .direnv) is this 
+
+```
+python3 -c 'import os; print(os.urandom(16).hex())'
+```
